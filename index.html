@@ -28,9 +28,19 @@
                  parseFloat (nota4))
 
     var media = soma/4;
+
+    
     document.write('  A soma das suas notas é.' + soma+ "<br>");
     
     document.write('  A media das suas notas é.' + media+ "<br>");
+
+    if(media<60){
+        document.write('REPROVADO' + "<br>");
+
+    }else{
+        document.write('APROVADO' + "<br>");
+
+    }
    
 
     //alert("Olá estou Aprendendo JavaScrip")
